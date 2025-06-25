@@ -1,6 +1,6 @@
 "use client";
 import { Dropdown } from "antd";
-import { AiFillCaretDown } from "react-icons/ai";
+import { FaChevronDown } from "react-icons/fa";
 import { MdLogout } from "react-icons/md";
 import { GiWallet } from "react-icons/gi";
 import AvatarImage from "@assets/images/avatar.png";
@@ -11,34 +11,30 @@ export const DropDown = () => {
   const items: MenuProps["items"] = [
     {
       key: "wallet",
-      icon: <GiWallet />,
-      label: "Wallet",
+      icon: <GiWallet className="text-blue-500" />,
+      label: "Ví tiền",
     },
     {
       type: "divider",
     },
-
     {
       key: "logout",
-      icon: <MdLogout />,
-      label: "Logout",
+      icon: <MdLogout className="text-blue-500" />,
+      label: "Đăng xuất",
     },
   ];
   return (
     <Dropdown menu={{ items, onClick }}>
-      <div
-        className="bg-white px-[10px] py-[5px] rounded-[5px]
-        flex items-center justify-between space-x-[5px]"
-      >
+      <div className="px-[10px] py-[10px] flex items-center justify-between space-x-[10px]">
         <div className="flex-shrink-0">
-          <Image src={AvatarImage} alt="Logo" />
+          <Image src={AvatarImage} alt="Logo" className="h-[35px] w-[35px]" />
         </div>
         <div className="line-clamp-1 flex-1 max-w-[120px]">
-          <span className="text-gray-600 cursor-default font-medium">
-            TranHuyHoang23022001
+          <span className=" cursor-default font-medium">
+            TranHuyHoang23022001@gmail.com
           </span>
         </div>
-        <AiFillCaretDown />
+        <FaChevronDown />
       </div>
     </Dropdown>
   );
