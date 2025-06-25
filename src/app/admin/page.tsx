@@ -1,10 +1,8 @@
-"use client";
 const PageAdmin = () => {
   return (
-    <div>
+    <div className="">
       <h1>Body Admin</h1>
     </div>
   );
 };
-
 export default PageAdmin;

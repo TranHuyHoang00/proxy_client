@@ -20,7 +20,21 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-/*  */
+/* Croll */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #caceda;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+/* Antd */
 .ant-menu {
   border-inline-end: none !important;
 }

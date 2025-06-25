@@ -1,3 +1,4 @@
+"use client";
 import { RiMenuFold3Fill } from "react-icons/ri";
 import { RiMenuFold4Fill } from "react-icons/ri";
 type CollapsedIconProps = {

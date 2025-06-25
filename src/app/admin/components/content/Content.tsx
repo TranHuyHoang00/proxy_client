@@ -1,12 +1,14 @@
 "use client";
-import { Layout } from "antd";
-
-const { Header, Footer, Sider } = Layout;
-
 type ContentProps = {
   children: React.ReactNode;
   [key: string]: any;
 };
 export const Content = ({ children, ...props }: ContentProps) => {
-  return <Header {...props}>{children}</Header>;
+  return (
+    <div className="overflow-y-auto">
+      <div className="p-[10px] lg:p-[15px]">
+        <div className="space-y-[20px]">{children}</div>
+      </div>
+    </div>
+  );
 };

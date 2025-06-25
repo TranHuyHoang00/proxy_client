@@ -18,6 +18,7 @@ export const Logo = ({ collapsed }: LogoProps) => {
         onClick={() => onClickMenuItem()}
         src={collapsed ? LogoImageICon : LogoImageFull}
         alt="logo"
+        priority
       />
     </div>
   );

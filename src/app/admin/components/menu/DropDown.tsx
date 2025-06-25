@@ -25,9 +25,14 @@ export const DropDown = () => {
   ];
   return (
     <Dropdown menu={{ items, onClick }}>
-      <div className="px-[10px] py-[10px] flex items-center justify-between space-x-[10px]">
+      <div className="px-[10px] py-[5px] md:py-[10px] flex items-center justify-between space-x-[10px]">
         <div className="flex-shrink-0">
-          <Image src={AvatarImage} alt="Logo" className="h-[35px] w-[35px]" />
+          <Image
+            src={AvatarImage}
+            alt="Logo"
+            className="h-[35px] w-[35px]"
+            priority
+          />
         </div>
         <div className="line-clamp-1 flex-1 max-w-[120px]">
           <span className=" cursor-default font-medium">
