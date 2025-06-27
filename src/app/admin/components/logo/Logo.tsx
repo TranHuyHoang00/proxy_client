@@ -17,7 +17,7 @@ export const Logo = ({ collapsed }: LogoProps) => {
         className="h-[40px] w-auto cursor-pointer"
         onClick={() => onClickMenuItem()}
         src={collapsed ? LogoImageICon : LogoImageFull}
-        alt="logo"
+        alt="logo-mua-proxy"
         priority
       />
     </div>

@@ -29,9 +29,9 @@ export const DropDown = () => {
         <div className="flex-shrink-0">
           <Image
             src={AvatarImage}
-            alt="Logo"
+            alt="avatar"
             className="h-[35px] w-[35px]"
-            priority
+            loading="lazy"
           />
         </div>
         <div className="line-clamp-1 flex-1 max-w-[120px]">
