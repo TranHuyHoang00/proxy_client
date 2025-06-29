@@ -1,0 +1,18 @@
+.gradient-border {
+    background-clip: padding-box, border-box;
+    background-image: linear-gradient(90deg, #fff, #fff), linear-gradient(90deg, #239dfa, #13c8e6);
+    background-origin: padding-box, border-box;
+    border: 1px solid transparent;
+}
+
+.gradient-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #239dfa, #13c8e6);
+    color: transparent;
+}
+
+.grid-item-default-gradient {
+    background-image: linear-gradient(90deg, #fff, #fff), linear-gradient(90deg, #239dfa, #11adc9);
+    box-shadow: 0px 4px 20px 4px #239dfa12;
+}
