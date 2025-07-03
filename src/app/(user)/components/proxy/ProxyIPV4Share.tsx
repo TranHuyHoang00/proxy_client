@@ -7,7 +7,7 @@ const dataDescriptions = [
     { id: 4, label: "Get IPs from real ISPs" },
     { id: 5, label: "24/7 IP availability " },
 ]
-export const ProxyIPV4Private = () => {
+export const ProxyIPV4Share = () => {
     return (
         <div
             className="py-[50px] px-[25px] md:px-[50px] lg:px-[100px] xl:px-[200px]"
@@ -17,14 +17,15 @@ export const ProxyIPV4Private = () => {
         >
             <div className="space-y-[20px]">
                 <div className="text-center text-[30px] text-[#3e4150] font-[700]">
-                    <label>Proxy IPV4 Private</label>
+                    <label>Proxy IPV4 Share</label>
                 </div>
                 <div className="text-center text-[14px] text-[#9ca1ac] pb-[10px]">
                     <label>Empowering Your Business Success Across Various Fields</label>
                 </div>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-[25px] text-[#144f6c] ">
-                    <ProxyItem type="Private V4" title="Proxy Việt Nam" price="67.500" dataDescriptions={dataDescriptions} />
-                    <ProxyItem type="Private V4" title="Proxy Nước Ngoài" price="52.468" dataDescriptions={dataDescriptions} />
+                    <ProxyItem type="Private V4" title="Proxy Việt Nam - Dân cư Nhà mạng tĩnh" price="67.500" dataDescriptions={dataDescriptions} />
+                    <ProxyItem type="Private V4" title="Proxy Việt Nam - Datacenter tĩnh" price="52.468" dataDescriptions={dataDescriptions} />
+                    <ProxyItem type="Private V4" title="Proxy Việt Nam - Dân cư nhà mạng xoay" price="52.468" dataDescriptions={dataDescriptions} />
                 </div>
             </div>
         </div>

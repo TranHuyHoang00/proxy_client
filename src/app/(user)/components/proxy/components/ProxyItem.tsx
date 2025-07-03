@@ -11,9 +11,9 @@ type ProxyItemProps = {
 }
 export const ProxyItem = ({ type, title, price, dataDescriptions }: ProxyItemProps) => {
     return (
-        <div className="relative p-[25px] rounded-[15px] grid-item-default-gradient text-[#144f6c]">
+        <div className="relative px-[25px] py-[30px] rounded-[15px] grid-item-default-gradient text-[#144f6c]">
             <div className="absolute left-0 top-0 h-[120px] w-full bg-[linear-gradient(180deg,rgba(179,230,255,0.4),rgba(179,230,255,0))] rounded-t-[15px]"></div>
-            <div className="absolute right-[10px] bottom-[10px] p-[5px] rounded-[5px] gradient-border bg-white">
+            <div className="absolute right-[15px] bottom-[15px] p-[5px] rounded-[5px] gradient-border bg-white">
                 <span className="gradient-text">{type}</span>
             </div>
             <div className="relative">
