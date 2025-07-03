@@ -6,7 +6,7 @@ const dataDescriptions = [
   { id: 4, label: "Get IPs from real ISPs" },
   { id: 5, label: "24/7 IP availability " },
 ];
-export const ProxyIPV4Private = () => {
+export const ProxyComboIPV4 = () => {
   return (
     <div
       className="py-[50px] px-[15px] sm:px-[25px] md:px-[50px] lg:px-[100px] xl:px-[200px]"
@@ -16,28 +16,50 @@ export const ProxyIPV4Private = () => {
     >
       <div className="space-y-[20px]">
         <div className="text-center text-[30px] text-[#3e4150] font-[700]">
-          <label>Proxy IPV4 Private</label>
+          <label>Proxy Combo IPV4</label>
         </div>
         <div className="text-center text-[14px] text-[#9ca1ac] pb-[10px]">
           <label>Empowering Your Business Success Across Various Fields</label>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-[25px] text-[#144f6c] ">
           <ProxyItem
+            tagProxy="Sale"
             flatType="VN"
             titleTime="1 Ngày"
             timeType="01"
-            typeProxy="Private V4"
-            titleProxy="Proxy Việt Nam"
-            priceProxy="2.250"
+            typeProxy="IPV4"
+            titleProxy="90 Proxy Viettel"
+            priceProxy="45.000"
             dataDescriptions={dataDescriptions}
           />
           <ProxyItem
-            flatType="US"
+            tagProxy="Sale"
+            flatType="VN"
             titleTime="1 Ngày"
             timeType="01"
-            typeProxy="Private V4"
-            titleProxy="Proxy nước ngoài"
-            priceProxy="1.750"
+            typeProxy="IPV4"
+            titleProxy="96 Proxy VNPT"
+            priceProxy="45.000"
+            dataDescriptions={dataDescriptions}
+          />
+          <ProxyItem
+            tagProxy="Sale"
+            flatType="VN"
+            titleTime="1 Ngày"
+            timeType="01"
+            typeProxy="IPV4"
+            titleProxy="96 Proxy FPT"
+            priceProxy="45.000"
+            dataDescriptions={dataDescriptions}
+          />
+          <ProxyItem
+            tagProxy="Sale"
+            flatType="VN"
+            titleTime="1 Ngày"
+            timeType="01"
+            typeProxy="IPV4"
+            titleProxy="100 Proxy Data Center"
+            priceProxy="40.000"
             dataDescriptions={dataDescriptions}
           />
         </div>

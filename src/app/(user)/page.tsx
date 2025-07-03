@@ -1,13 +1,14 @@
 import { MapProxy } from "@user/components/map_proxy/MapProxy";
 import { Worldwide } from "@user/components/worldwide/Worldwide";
 import { Proxy } from "@user/components/proxy/Proxy";
+import { Banner } from "@user/components/banner/Banner";
 const PageUser = () => {
   return (
     <div>
-      <h1>Body User</h1>
+      <Banner />
+      <Proxy />
       {/* <MapProxy /> */}
       {/* <Worldwide /> */}
-      <Proxy />
     </div>
   );
 };
