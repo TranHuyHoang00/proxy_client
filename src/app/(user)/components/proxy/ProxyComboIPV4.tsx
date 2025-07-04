@@ -1,3 +1,4 @@
+"use client";
 import { ProxyItem } from "@user/components/proxy/components/ProxyItem";
 const dataDescriptions = [
   { id: 1, label: "Unlimited data" },

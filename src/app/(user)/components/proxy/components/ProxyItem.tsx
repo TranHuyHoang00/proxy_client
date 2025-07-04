@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Image01Day from "@assets/images/01_day.png";
 import Image30Day from "@assets/images/30_day.webp";

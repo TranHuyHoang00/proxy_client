@@ -1,3 +1,4 @@
+"use client";
 import { ProxyIPV4Private } from "@user/components/proxy/ProxyIPV4Private";
 import { ProxyIPV4Share } from "@user/components/proxy/ProxyIPV4Share";
 import { ProxyIPV6Private } from "@user/components/proxy/ProxyIPV6Private";
